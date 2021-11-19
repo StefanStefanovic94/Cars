@@ -1,0 +1,58 @@
+main {
+  position: relative;
+  background: black;
+  z-index: 1;
+  min-width: fit-content; }
+  main .bannerImage {
+    height: 530px;
+    width: 100%;
+    min-width: 1437px;
+    object-fit: none;
+    z-index: 0;
+    opacity: 0.6; }
+  main .textMain {
+    position: absolute;
+    top: 57px;
+    left: 136px; }
+    main .textMain .featured {
+      color: red;
+      font-family: Montserrat;
+      font-size: 13px;
+      letter-spacing: 2px;
+      font-weight: 800; }
+    main .textMain .title {
+      color: white;
+      font-size: 36px;
+      font-weight: 800;
+      font-family: Montserrat;
+      margin-top: 0; }
+    main .textMain .about {
+      color: white;
+      font-family: Montserrat;
+      font-size: 14px;
+      opacity: 0.7; }
+    main .textMain .infoCar {
+      display: flex;
+      color: white; }
+    main .textMain .infoCar div {
+      background-color: black;
+      opacity: 0.5;
+      width: 150px;
+      height: 150px;
+      margin: 15px;
+      color: white;
+      text-align: center; }
+      main .textMain .infoCar div .first {
+        font-size: 11px;
+        letter-spacing: 3px;
+        color: white;
+        font-family: Montserrat; }
+      main .textMain .infoCar div .second {
+        font-size: 21px;
+        font-weight: 800;
+        font-family: Montserrat; }
+      main .textMain .infoCar div .third {
+        font-style: italic;
+        font-family: Montserrat; }
+
+/*# sourceMappingURL=banner.css.map */

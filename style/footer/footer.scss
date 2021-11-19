@@ -1,0 +1,57 @@
+$font-montserrat: Montserrat;
+$font-roboto: Roboto Condensend;
+
+footer {
+  background: #151618;
+  height: 773px;
+  position: relative;
+  img {
+    position: relative;
+    left: -154px;
+    top: 295px;
+    z-index: 1;
+  }
+  .boxText {
+    position: absolute;
+    top: 123px;
+    left: 181px;
+    .contactUs {
+      color: red;
+      font-family: $font-montserrat;
+      font-size: 10px;
+      letter-spacing: 4px;
+    }
+    .contactText {
+      color: white;
+      font-size: 45px;
+      font-family: $font-montserrat;
+      font-weight: 700;
+    }
+  }
+  .form {
+    right: 156px;
+    top: 151px;
+    position: absolute;
+    height: 400px;
+    width: 318px;
+    display: grid;
+    background-color: #011f05;
+    padding: 60px;
+    input {
+      height: 50px;
+      border-radius: 5px;
+      background-color: #26402a;
+    }
+    textarea {
+      background-color: #26402a;
+      height: 120px;
+    }
+    button {
+      height: 51px;
+      width: 92px;
+      background-color: #011f05;
+      color: white;
+      margin: auto;
+    }
+  }
+}

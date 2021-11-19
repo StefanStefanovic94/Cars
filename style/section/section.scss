@@ -1,0 +1,53 @@
+$font-montserrat: Montserrat;
+$font-roboto: Roboto Condensend;
+
+section {
+  padding: 100px 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  .leftDiv {
+    position: relative;
+    .colorDiv {
+      height: 500px;
+      width: 350px;
+      background-color: #212121;
+      position: relative;
+      left: 100px;
+    }
+    .car {
+      position: absolute;
+      z-index: 1;
+      top: 115px;
+    }
+    .textCar {
+      position: absolute;
+      left: 145px;
+      bottom: 2px;
+      width: 281px;
+      color: #909090;
+    }
+  }
+  .rightDiv {
+    position: relative;
+    margin-left: 280px;
+    .about {
+      color: red;
+      letter-spacing: 4px;
+      font-size: 12px;
+    }
+    .textWelcome {
+      font-size: 38px;
+      font-weight: 600;
+      font-family: $font-montserrat;
+    }
+    .text1 {
+      font-size: 19px;
+      font-family: $font-montserrat;
+    }
+    .text2 {
+      font-family: 15px;
+      font-family: $font-montserrat;
+    }
+  }
+}

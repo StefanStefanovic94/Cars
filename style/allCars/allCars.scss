@@ -1,0 +1,90 @@
+$font-montserrat: Montserrat;
+$font-roboto: Roboto Condensend;
+
+.allCars {
+  text-align: center;
+  h1 {
+    font-size: 42px;
+    margin-top: 60px;
+    margin-bottom: 40px;
+    font-family: $font-montserrat;
+  }
+  .navBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    p {
+      margin: 10px;
+      font-size: 20px;
+      color: grey;
+      padding: 20px;
+      cursor: pointer;
+    }
+    .allActive {
+      border-bottom: 2px red solid;
+    }
+  }
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px;
+    .card {
+      width: 258px;
+      border: 1px solid #f3f3f5;
+      .imageCar {
+        margin: 7px;
+        min-height: 95px;
+      }
+      .includes {
+        text-align: initial;
+        margin-left: 10px;
+      }
+      .price {
+        display: flex;
+        justify-content: space-between;
+        padding: 0 10px;
+
+        .startingFrom {
+          color: grey;
+          font-size: 15px;
+          margin-bottom: 2px;
+        }
+        .euro {
+          margin-top: 2px;
+          font-weight: 700;
+          font-size: 22px;
+        }
+        button {
+          margin: auto 0;
+          background-color: #fee9e9;
+          color: red;
+          padding: 8px;
+          border-radius: 12px;
+          border: none;
+          cursor: pointer;
+        }
+      }
+      .includes div {
+        display: flex;
+      }
+      .includes p {
+        margin: 5px;
+        color: grey;
+      }
+    }
+  }
+  .seats {
+    color: grey;
+  }
+  .carName {
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 1px;
+    font-family: $font-montserrat;
+  }
+  .configuration {
+    color: blue;
+    font-size: 15px;
+  }
+}

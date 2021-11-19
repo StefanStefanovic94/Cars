@@ -1,0 +1,42 @@
+section {
+  padding: 100px 200px;
+  position: relative;
+  display: flex;
+  justify-content: space-between; }
+  section .leftDiv {
+    position: relative; }
+    section .leftDiv .colorDiv {
+      height: 500px;
+      width: 350px;
+      background-color: #212121;
+      position: relative;
+      left: 100px; }
+    section .leftDiv .car {
+      position: absolute;
+      z-index: 1;
+      top: 115px; }
+    section .leftDiv .textCar {
+      position: absolute;
+      left: 145px;
+      bottom: 2px;
+      width: 281px;
+      color: #909090; }
+  section .rightDiv {
+    position: relative;
+    margin-left: 280px; }
+    section .rightDiv .about {
+      color: red;
+      letter-spacing: 4px;
+      font-size: 12px; }
+    section .rightDiv .textWelcome {
+      font-size: 38px;
+      font-weight: 600;
+      font-family: Montserrat; }
+    section .rightDiv .text1 {
+      font-size: 19px;
+      font-family: Montserrat; }
+    section .rightDiv .text2 {
+      font-family: 15px;
+      font-family: Montserrat; }
+
+/*# sourceMappingURL=section.css.map */

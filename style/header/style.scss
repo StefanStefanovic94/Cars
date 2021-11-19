@@ -1,0 +1,76 @@
+$font-montserrat: Montserrat;
+$font-roboto: Roboto Condensend;
+
+body {
+  margin: 0;
+padding: 0 73px 0 73px;
+  header {
+    position: relative;
+    .headerImage {
+      height: 720px;
+      width: 100%;
+      min-width: 1437px;
+    }
+    .baner {
+      position: absolute;
+      top: 50px;
+      left: 41px;
+      display: flex;
+      justify-content: space-between;
+      width: 1340px;
+      .menu {
+        display: flex;
+        p {
+          color: grey;
+          font-family: $font-montserrat;
+          margin: auto;
+          font-size: 14px;
+          padding: 15px;
+          margin-left: 20px;
+        }
+        .active {
+          color: white;
+          border-bottom: solid 1px red;
+        }
+        .contact {
+          background: grey;
+          color: white;
+          border-radius: 5px;
+        }
+      }
+    }
+    .text {
+      position: absolute;
+      top: 228px;
+      left: 220px;
+      color: white;
+      .newArrival {
+        color: red;
+        font-size: 12px;
+        font-family: $font-montserrat;
+        letter-spacing: 3px;
+      }
+      .textInside {
+        font-size: 51px;
+        font-weight: 800;
+        margin: 0;
+        font-family: $font-montserrat;
+      }
+      .textBottom {
+        padding-left: 34px;
+        border-left: red 1px solid;
+        margin-left: 19px;
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+        font-size: 15px;
+        font-weight: 100;
+        color: lightgrey;
+        margin-top: 32px;
+        span {
+          margin-top: 20px;
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
+}

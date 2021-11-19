@@ -1,0 +1,47 @@
+footer {
+  background: #151618;
+  height: 773px;
+  position: relative; }
+  footer img {
+    position: relative;
+    left: -154px;
+    top: 295px;
+    z-index: 1; }
+  footer .boxText {
+    position: absolute;
+    top: 123px;
+    left: 181px; }
+    footer .boxText .contactUs {
+      color: red;
+      font-family: Montserrat;
+      font-size: 10px;
+      letter-spacing: 4px; }
+    footer .boxText .contactText {
+      color: white;
+      font-size: 45px;
+      font-family: Montserrat;
+      font-weight: 700; }
+  footer .form {
+    right: 156px;
+    top: 151px;
+    position: absolute;
+    height: 400px;
+    width: 318px;
+    display: grid;
+    background-color: #011f05;
+    padding: 60px; }
+    footer .form input {
+      height: 50px;
+      border-radius: 5px;
+      background-color: #26402a; }
+    footer .form textarea {
+      background-color: #26402a;
+      height: 120px; }
+    footer .form button {
+      height: 51px;
+      width: 92px;
+      background-color: #011f05;
+      color: white;
+      margin: auto; }
+
+/*# sourceMappingURL=footer.css.map */
