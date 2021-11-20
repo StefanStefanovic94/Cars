@@ -22,9 +22,14 @@
             </div>
             <div class="menu">
                 <p class="active">HOMEPAGE</p>
-                <p>ABOUT US</p>
+                <p id="forClick" class="aboutAsNotActive">ABOUT US</p>
                 <p>PRODUCT</p>
                 <p class="contact">CONTACT US</p>
+            </div>
+            <div class="notActivate">
+                <p>Our Team</p>
+                <p class="leadership">Leadership</p>
+                <p>Partners</p>
             </div>
         </div>
         <div class="text">
@@ -206,6 +211,49 @@
             </div>
         </div>
 
+        <div class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <div>
+                    <img src="./image/Product Images/product-card-audi-q7.png" alt="audi">
+                    <p>5 seats, 4 Doors</p>
+                    <p>Audi Q7 2020</p>
+                    <p id="price">39999</p>
+                </div>
+                <div>
+                    <div>
+                        <p>Audi Congiurator</p>
+                        <p>Create your own Audi</p>
+                    </div>
+                    <div>
+                        <label class="container">One
+                            <input class="one" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container">Two
+                            <input class="two" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container">Three
+                            <input class="three" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+
+                        <label class="container">Four
+                            <input class="four" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                        <label class="container">five
+                            <input class="five" type="checkbox">
+                            <span class="checkmark"></span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <footer>
@@ -225,6 +273,9 @@
 
     </footer>
 
+    <script src="./main.js"></script>
+    <script src="./modal.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 </body>
 
 </html>

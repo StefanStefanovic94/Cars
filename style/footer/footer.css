@@ -5,8 +5,7 @@ footer {
   footer img {
     position: relative;
     left: -154px;
-    top: 295px;
-    z-index: 1; }
+    top: 295px; }
   footer .boxText {
     position: absolute;
     top: 123px;
@@ -22,7 +21,7 @@ footer {
       font-family: Montserrat;
       font-weight: 700; }
   footer .form {
-    right: 156px;
+    right: 95px;
     top: 151px;
     position: absolute;
     height: 400px;
@@ -36,12 +35,16 @@ footer {
       background-color: #26402a; }
     footer .form textarea {
       background-color: #26402a;
-      height: 120px; }
+      height: 120px;
+      max-width: 340px;
+      min-width: fit-content;
+      max-height: 145px; }
     footer .form button {
       height: 51px;
       width: 92px;
       background-color: #011f05;
       color: white;
-      margin: auto; }
+      margin: auto;
+      border: 1px grey solid; }
 
 /*# sourceMappingURL=footer.css.map */
