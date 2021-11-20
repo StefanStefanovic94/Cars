@@ -131,7 +131,7 @@
                         <p class="startingFrom">Starting from</p>
                         <p class="euro">24.999e</p>
                     </div>
-                    <button>Buy Now</button>
+                    <button id="buyFirst">Buy Now</button>
                 </div>
             </div>
             <div class="card"> <img class="imageCar" src="./image/Product Images/product-card-audi-a4.png">
@@ -156,7 +156,7 @@
                         <p class="startingFrom">Starting from</p>
                         <p class="euro">24.999e</p>
                     </div>
-                    <button>Buy Now</button>
+                    <button id="buySecond">Buy Now</button>
                 </div>
             </div>
             <div class="card"> <img class="imageCar" src="./image/Product Images/product-card-audi-a3.png">
@@ -181,7 +181,7 @@
                         <p class="startingFrom">Starting from</p>
                         <p class="euro">24.999e</p>
                     </div>
-                    <button>Buy Now</button>
+                    <button id="buyThird">Buy Now</button>
                 </div>
             </div>
             <div class="card"> <img class="imageCar" src="./image/Product Images/product-card-audi-q7.png">
@@ -206,48 +206,61 @@
                         <p class="startingFrom">Starting from</p>
                         <p class="euro">24.999e</p>
                     </div>
-                    <button>Buy Now</button>
+                    <button id="buyFour">Buy Now</button>
                 </div>
             </div>
         </div>
 
         <div class="modal">
             <div class="modal-content">
-                <span class="close">&times;</span>
-                <div>
+                <span id="close" class="closeX">&times;</span>
+                <div class="divCar">
                     <img src="./image/Product Images/product-card-audi-q7.png" alt="audi">
-                    <p>5 seats, 4 Doors</p>
-                    <p>Audi Q7 2020</p>
-                    <p id="price">39999</p>
+                    <p class="seats">5 seats, 4 Doors</p>
+                    <p class="carName">Audi Q7 2020</p>
+                    <p id="price" class="priceCar">39999 $</p>
                 </div>
-                <div>
+                <div class="divNameCheck">
                     <div>
                         <p>Audi Congiurator</p>
-                        <p>Create your own Audi</p>
+                        <p class="someText">Create your own Audi</p>
                     </div>
-                    <div>
-                        <label class="container">One
-                            <input class="one" type="checkbox">
-                            <span class="checkmark"></span>
+                    <div class="checkboxDiv">
+                        <label class="container">
+                            <div>
+                                <input class="zero" type="checkbox">
+                                <span class="checkmark">48-V electrical system</span>
+                            </div>
+                            <p>0 EUR</p>
                         </label>
+                        <label class="container">
+                            <div>
+                                <input class="one" type="checkbox">
+                                <span class="checkmark">Adaptive air suspension -sport</span>
+                            </div>
+                            <p>276.60 EUR</p>
+                        </label>
+                        <label class="container">
+                            <div>
+                                <input class="two" type="checkbox">
+                                <span class="checkmark">Acoustic side windows - optional</span>
+                            </div>
+                            <p>558.78 EUR</p>
+                        </label>
+                        <label class="container">
+                            <div>
+                                <input class="three" type="checkbox">
+                                <span class="checkmark">Acoustic and heat-insulating glass</span>
+                            </div>
+                            <p>357,29 EUR</p>
+                        </label>
+                        <label class="container">
+                            <div>
+                                <input class="four" type="checkbox">
+                                <span class="checkmark">Ambiental LED</span>
 
-                        <label class="container">Two
-                            <input class="two" type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-
-                        <label class="container">Three
-                            <input class="three" type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-
-                        <label class="container">Four
-                            <input class="four" type="checkbox">
-                            <span class="checkmark"></span>
-                        </label>
-                        <label class="container">five
-                            <input class="five" type="checkbox">
-                            <span class="checkmark"></span>
+                            </div>
+                            <p>637.48 EUR</p>
                         </label>
                     </div>
                 </div>
