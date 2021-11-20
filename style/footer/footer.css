@@ -1,7 +1,8 @@
 footer {
   background: #151618;
   height: 773px;
-  position: relative; }
+  position: relative;
+  min-width: 1200px; }
   footer img {
     position: relative;
     left: -154px;

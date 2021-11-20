@@ -1,5 +1,6 @@
 .allCars {
-  text-align: center; }
+  text-align: center;
+  min-width: 1200px; }
   .allCars h1 {
     font-size: 42px;
     margin-top: 60px;
@@ -99,7 +100,9 @@
       color: white;
       border-radius: 50%;
       margin: auto;
-      top: -19px; }
+      top: -19px;
+      font-size: 30px;
+      font-family: monospace; }
     .allCars .modal-content .divCar {
       background-color: #f1f1f5;
       padding: 30px 50px; }

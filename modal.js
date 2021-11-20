@@ -35,6 +35,7 @@ let allMoney = 39999
 
 const addMoneyOne = () => {
     if (one.checked === true) {
+        
         allMoney += 276.60
         price.textContent = allMoney + "$"
     } else {

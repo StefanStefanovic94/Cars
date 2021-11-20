@@ -3,6 +3,7 @@ $font-roboto: Roboto Condensend;
 
 .allCars {
   text-align: center;
+  min-width: 1200px;
   h1 {
     font-size: 42px;
     margin-top: 60px;
@@ -124,6 +125,8 @@ $font-roboto: Roboto Condensend;
       border-radius: 50%;
       margin: auto;
       top: -19px;
+      font-size: 30px;
+      font-family: monospace;
     }
     .divCar {
       background-color: #f1f1f5;
